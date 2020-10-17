@@ -32,11 +32,13 @@
     "*://*.haaretz.co.il/*",
     "*://*.humo.be/*",
     "*://*.interest.co.nz/*",
+    "*://*.ikz-online.de/*",
     "*://*.ledevoir.com/*",
     "*://*.leparisien.fr/*",
     "*://*.medium.com/*",
     "*://*.medscape.com/*",
     "*://*.mexiconewsdaily.com/*",
+    "*://*.nrz.de/*",
     "*://*.nytimes.com/*",
     "*://*.nzherald.co.nz/*",
     "*://*.parool.nl/*",
@@ -59,6 +61,9 @@
     "*://*.trouw.nl/*",
     "*://*.volkskrant.nl/*",
     "*://*.washingtonpost.com/*",
+    "*://*.waz.de/*",
+    "*://*.wp.de/*",
+    "*://*.wr.de/*",
     "*://*.wsj.com/*",
     "*://*.hbr.org/*",
     "*://*.financialpost.com/*"
@@ -246,5 +251,5 @@
     "*://*.df.cl/*",
     "*://*.financialpost.com/*"
   ],
-  "version": "1.7.6"
+  "version": "1.7.7"
 }
