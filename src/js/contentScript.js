@@ -466,21 +466,30 @@ if (matchDomain('elmercurio.com')) {
     const adblockNotif = document.querySelector('.adblock-notif');
     removeDOMElement(adblockNotif);
   }, 800); // Delay (in milliseconds)
+} else if (matchDomain('wp.de')) {
+  sessionStorage.setItem('deobfuscate', 'true');
+} else if (matchDomain('wr.de')) {
+  sessionStorage.setItem('deobfuscate', 'true');
+} else if (matchDomain('nrz.de')) {
+  sessionStorage.setItem('deobfuscate', 'true');
+} else if (matchDomain('waz.de')) {
+  sessionStorage.setItem('deobfuscate', 'true');
+} else if (matchDomain('ikz-online.de')) {
+  sessionStorage.setItem('deobfuscate', 'true');
 }
-
-function matchDomain (domains) {
+function matchDomain(domains) {
   const hostname = window.location.hostname;
   if (typeof domains === 'string') { domains = [domains]; }
   return domains.some(domain => hostname === domain || hostname.endsWith('.' + domain));
 }
 
-function removeDOMElement (...elements) {
+function removeDOMElement(...elements) {
   for (const element of elements) {
     if (element) { element.remove(); }
   }
 }
 
-function removeClassesByPrefix (el, prefix) {
+function removeClassesByPrefix(el, prefix) {
   for (const clazz of el.classList) {
     if (clazz.startsWith(prefix)) {
       el.classList.remove(clazz);
@@ -488,14 +497,14 @@ function removeClassesByPrefix (el, prefix) {
   }
 }
 
-function pageContains (selector, text) {
+function pageContains(selector, text) {
   const elements = document.querySelectorAll(selector);
   return Array.prototype.filter.call(elements, function (element) {
     return RegExp(text).test(element.textContent);
   });
 }
 
-function NZHerald () {
+function NZHerald() {
   const video = document.querySelector('.video-js');
   if (video) {
     const s = document.getElementsByTagName('script')[0];
@@ -521,7 +530,7 @@ function NZHerald () {
       }
     }
   }
-    
+
   window.setTimeout(function () {
     const articleBody = document.querySelector('.article__body');
     if (articleBody) {
