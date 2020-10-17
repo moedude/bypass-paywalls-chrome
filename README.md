@@ -76,10 +76,11 @@
 [Het Financieel Dagblad](https://fd.nl)\
 [History Extra](https://www.historyextra.com)\
 [Humo](https://www.humo.be)\
+[Iserlohner Kreisanzeiger](https://ikz-online.de)\
 [Il Manifesto](https://www.ilmanifesto.it)\
 [Inc.com](https://www.inc.com)\
 [Interest.co.nz](https://www.interest.co.nz)\
-[Investors Chronicle](https://www.investorschronicle.co.uk)
+[Investors Chronicle](https://www.investorschronicle.co.uk)\
 [L'Écho](https://www.lecho.be)\
 [L.A. Business Journal](https://labusinessjournal.com)\
 [La Nación](https://www.lanacion.com.ar)\
@@ -101,6 +102,7 @@
 [NRC Handelsblad](https://www.nrc.nl)\
 [NT News](https://www.ntnews.com.au)\
 [National Post](https://www.nationalpost.com)\
+[Neue Ruhr Zeitung](https://nrz.de)\
 [Neue Zürcher Zeitung](https://www.nzz.ch)\
 [New York Magazine](https://www.nymag.com)\
 [New Zealand Herald](https://www.nzherald.co.nz)\
@@ -171,6 +173,9 @@
 [Trouw](https://www.trouw.nl)\
 [Vanity Fair](https://www.vanityfair.com)\
 [Vrij Nederland](https://www.vn.nl)\
+[Westfaelische Rundschau](https://wr.de)\
+[Westfalenpost](https://wp.de)\
+[Westfalen Anzeiger](https://waz.de)\
 [Winston-Salem Journal](https://journalnow.com)\
 [Wired](https://www.wired.com)\
 [World Politics Review](https://www.worldpoliticsreview.com)
